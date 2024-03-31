@@ -1653,6 +1653,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^20.12.2":
+  version: 20.12.2
+  resolution: "@types/node@npm:20.12.2"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: bb47d115a8f95aadebdd6403fee16d149d6b5568ad53bacc42df34c2d572561e36ba47b05f7f68bada43752d7369b470a90df65b646af7502dfb799a21b4fca7
+  languageName: node
+  linkType: hard
+
 "@use-gesture/core@npm:10.3.1":
   version: 10.3.1
   resolution: "@use-gesture/core@npm:10.3.1"
@@ -2805,7 +2814,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"preact@npm:^10.13.1":
+"preact@npm:^10.20.1":
   version: 10.20.1
   resolution: "preact@npm:10.20.1"
   checksum: 3834f00d663c6ab90ddbfd618b7eee8612c5b4c0a2953d283b2b749340b5cc0c9efa91d70583ba6a5f65a641a87257c5bb3b414d9ad1bfb9eab5468c978b19d3
@@ -3127,7 +3136,8 @@ __metadata:
     "@biomejs/biome": "npm:1.4.1"
     "@preact/preset-vite": "npm:^2.5.0"
     "@tldraw/tldraw": "npm:^2.0.2"
-    preact: "npm:^10.13.1"
+    "@types/node": "npm:^20.12.2"
+    preact: "npm:^10.20.1"
     typescript: "npm:^5.0.2"
     vite: "npm:^4.4.5"
   languageName: unknown
@@ -3188,6 +3198,13 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 1b50712759f1e4bf4bf6fe7e662235358b716972dec8aa9ca117dee531dbd7b417f5fe28f74d347b4447eec09a200c0372fe9cf1aad2e15a2bcf4a1a99db0820
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: bb673d7876c2d411b6eb6c560e0c571eef4a01c1c19925175d16e3a30c4c428181fb8d7ae802a261f283e4166a0ac435e2f505743aa9e45d893f9a3df017b501
   languageName: node
   linkType: hard
 

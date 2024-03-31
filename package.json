@@ -1,6 +1,5 @@
 {
   "name": "tldraw-preact",
-  "private": true,
   "version": "0.0.1",
   "homepage": "https://OrionReed.github.io/tldraw-preact",
   "type": "module",
@@ -11,11 +10,12 @@
   },
   "dependencies": {
     "@tldraw/tldraw": "^2.0.2",
-    "preact": "^10.13.1"
+    "preact": "^10.20.1"
   },
   "devDependencies": {
     "@biomejs/biome": "1.4.1",
     "@preact/preset-vite": "^2.5.0",
+    "@types/node": "^20.12.2",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   },

@@ -1,13 +1,25 @@
 {
 	"compilerOptions": {
-		"target": "ES2020",
+		"baseUrl": ".",
+    "skipLibCheck": true, // Skip type checking of all declaration files (*.d.ts) so tldraw builds with preact
+		"target": "ES2022",
 		"module": "ESNext",
 		"moduleResolution": "bundler",
 		"noEmit": true,
 		"allowJs": true,
 		"checkJs": true,
 		"jsx": "react-jsx",
-		"jsxImportSource": "preact"
+		"jsxImportSource": "preact",
+		"paths": {
+      "@/*": ["src/*"],
+      "react": ["node_modules/preact/compat/"],
+      "react-dom": ["node_modules/preact/compat/"]
+    },
 	},
-	"include": ["node_modules/vite/client.d.ts", "**/*"]
+	"include": ["node_modules/vite/client.d.ts", "src/**/*"],
+	"references": [
+		{
+			"path": "./tsconfig.node.json"
+		}
+	]
 }
